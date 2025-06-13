@@ -62,4 +62,24 @@
     "email": "Engy.w@example.com",
     "status": "Inactive"
   }
+  ,
+   {
+    "id": 8,
+    "firstName": "Williams",
+    "lastName": "Brown",
+    "date": "2023-01-05",
+    "age": 45,
+    "email": "Brown.w@example.com",
+    "status": "Inactive"
+  }
+  ,
+   {
+    "id": 9,
+    "firstName": "Brown",
+    "lastName": "Robert",
+    "date": "2023-01-05",
+    "age": 28,
+    "email": "Robert.w@example.com",
+    "status": "Inactive"
+  }
 ]
