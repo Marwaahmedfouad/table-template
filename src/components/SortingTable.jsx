@@ -12,7 +12,7 @@ function SortingTable() {
 
   return (
     <>
-      <h5 style={{ color: "pink" }}> SortingTable  </h5>
+      <h5 style={{ color: "pink" }}>SortingTable  </h5>
       <table {...getTableProps()}>
         <thead>
           {headerGroups.map((headerGroup) => (
