@@ -7,6 +7,9 @@ import GlobalFilteringTablePagSelectedhidden from './components/GlobalFilteringT
 import GlobalFilteringTablePagSelected from './components/GlobalFilteringTablePagSelected';
 import GlobalFilteringTablePag from './components/GlobalFilteringTablePag';
 import FilteringTablePagSelecteddoupleclick from './components/FilteringTablePagSelecteddoupleclick';
+import FilteringTablePagSelecteddoupleclickhidden from './components/FilteringTablePagSelecteddoupleclickhidden';
+import FilteringsortingTablePagSelecteddoupleclickhidden from './components/FilteringsortingTablePagSelecteddoupleclickhidden';
+import FilteringsortingTablePagSelecteddoupleclickhiddeneachcolumn from './components/FilteringsortingTablePagSelecteddoupleclickhiddeneachcolumn';
 
 function App() {
 
@@ -14,12 +17,14 @@ function App() {
     <div style={{textAlign:'center'}}>
         <BasicTable/>
         <SortingTable/>
-        <SortingTableFormatting/>
         <FilteringTable/>
-        <GlobalFilteringTablePagSelectedhidden/>
-        <GlobalFilteringTablePagSelected/>
+        <SortingTableFormatting/>
         <GlobalFilteringTablePag/>
+        <GlobalFilteringTablePagSelected/>
         <FilteringTablePagSelecteddoupleclick/>
+        <GlobalFilteringTablePagSelectedhidden/>
+        <FilteringTablePagSelecteddoupleclickhidden/>
+        <FilteringsortingTablePagSelecteddoupleclickhidden/>
     </div>
       
   

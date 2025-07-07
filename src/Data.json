@@ -6,7 +6,15 @@
     "date": "2023-05-15",
     "age": 30,
     "email": "john.doe@example.com",
-    "status": "Active"
+    "status": "Active",
+    "department": "Engineering",
+    "position": "Developer",
+    "salary": 85000,
+    "startDate": "2020-01-10",
+    "phone": "+1 555-123-4567",
+    "address": "123 Main St",
+    "city": "New York",
+    "country": "USA"
   },
   {
     "id": 2,
@@ -15,7 +23,15 @@
     "date": "2023-06-20",
     "age": 25,
     "email": "jane.smith@example.com",
-    "status": "Inactive"
+    "status": "Inactive",
+    "department": "Marketing",
+    "position": "Content Specialist",
+    "salary": 65000,
+    "startDate": "2021-03-15",
+    "phone": "+1 555-234-5678",
+    "address": "456 Oak Ave",
+    "city": "Los Angeles",
+    "country": "USA"
   },
   {
     "id": 3,
@@ -24,7 +40,15 @@
     "date": "2023-04-10",
     "age": 35,
     "email": "michael.j@example.com",
-    "status": "Active"
+    "status": "Active",
+    "department": "Finance",
+    "position": "Accountant",
+    "salary": 72000,
+    "startDate": "2019-07-22",
+    "phone": "+1 555-345-6789",
+    "address": "789 Pine Rd",
+    "city": "Chicago",
+    "country": "USA"
   },
   {
     "id": 4,
@@ -33,7 +57,15 @@
     "date": "2023-07-05",
     "age": 28,
     "email": "emily.w@example.com",
-    "status": "Pending"
+    "status": "Pending",
+    "department": "HR",
+    "position": "Recruiter",
+    "salary": 58000,
+    "startDate": "2022-05-30",
+    "phone": "+1 555-456-7890",
+    "address": "321 Elm St",
+    "city": "Houston",
+    "country": "USA"
   },
   {
     "id": 5,
@@ -42,24 +74,48 @@
     "date": "2023-03-22",
     "age": 42,
     "email": "robert.b@example.com",
-    "status": "Active"
+    "status": "Active",
+    "department": "Operations",
+    "position": "Manager",
+    "salary": 92000,
+    "startDate": "2018-11-12",
+    "phone": "+1 555-567-8901",
+    "address": "654 Maple Dr",
+    "city": "Phoenix",
+    "country": "USA"
   },
   {
     "id": 6,
-    "firstName": "Emaaaan",
+    "firstName": "Eman",
     "lastName": "Williams",
     "date": "2023-04-21",
     "age": 45,
-    "email": "Emaaaan.e@example.com",
-    "status": "Pending"
+    "email": "eman.e@example.com",
+    "status": "Pending",
+    "department": "IT",
+    "position": "Systems Analyst",
+    "salary": 78000,
+    "startDate": "2020-09-18",
+    "phone": "+1 555-678-9012",
+    "address": "987 Cedar Ln",
+    "city": "Philadelphia",
+    "country": "USA"
   },
-   {
+  {
     "id": 7,
     "firstName": "Engy",
     "lastName": "Smith",
     "date": "2023-01-05",
     "age": 28,
-    "email": "Engy.w@example.com",
-    "status": "Inactive"
+    "email": "engy.w@example.com",
+    "status": "Inactive",
+    "department": "Sales",
+    "position": "Account Executive",
+    "salary": 68000,
+    "startDate": "2021-08-27",
+    "phone": "+1 555-789-0123",
+    "address": "147 Birch Blvd",
+    "city": "San Antonio",
+    "country": "USA"
   }
 ]
