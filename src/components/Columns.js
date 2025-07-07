@@ -1,3 +1,4 @@
+// Columns.js
 export default [
   {
     Header: 'ID',
@@ -11,10 +12,10 @@ export default [
     Header: 'Last Name',
     accessor: 'lastName'
   },
-{
-  Header: 'Date',
-  accessor: 'date', // Try lowercase if your data uses lowercase
-},
+  {
+    Header: 'Date',
+    accessor: 'date'
+  },
   {
     Header: 'Age',
     accessor: 'age'
@@ -26,5 +27,37 @@ export default [
   {
     Header: 'Status',
     accessor: 'status'
+  },
+  {
+    Header: 'Department',
+    accessor: 'department'
+  },
+  {
+    Header: 'Position',
+    accessor: 'position'
+  },
+  {
+    Header: 'Salary',
+    accessor: 'salary'
+  },
+  {
+    Header: 'Start Date',
+    accessor: 'startDate'
+  },
+  {
+    Header: 'Phone',
+    accessor: 'phone'
+  },
+  {
+    Header: 'Address',
+    accessor: 'address'
+  },
+  {
+    Header: 'City',
+    accessor: 'city'
+  },
+  {
+    Header: 'Country',
+    accessor: 'country'
   }
 ];
