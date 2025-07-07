@@ -100,22 +100,5 @@
     "address": "987 Cedar Ln",
     "city": "Philadelphia",
     "country": "USA"
-  },
-  {
-    "id": 7,
-    "firstName": "Engy",
-    "lastName": "Smith",
-    "date": "2023-01-05",
-    "age": 28,
-    "email": "engy.w@example.com",
-    "status": "Inactive",
-    "department": "Sales",
-    "position": "Account Executive",
-    "salary": 68000,
-    "startDate": "2021-08-27",
-    "phone": "+1 555-789-0123",
-    "address": "147 Birch Blvd",
-    "city": "San Antonio",
-    "country": "USA"
   }
 ]
