@@ -2,19 +2,57 @@ table {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  min-width: 600px; /* Makes sure it doesn't shrink too small */
 }
 
-table td, table th {
+table td,
+table th {
   border: 1px solid #38373752;
   padding: 8px;
+  text-align: center;
 }
 
-table tr:hover {background-color: #8d8f8f;}
+table tr:hover {
+  background-color: #8d8f8f;
+}
 
 table th {
   padding-top: 12px;
   padding-bottom: 12px;
-  text-align: center;
   background-color: #000000;
-  color: rgb(255, 255, 255);
+  color: white;
+}
+
+/* Responsive Wrapper */
+.table-wrapper {
+  overflow-x: auto;
+  width: 100%;
+}
+
+/* Optional: Scroll Hint */
+.scroll-hint {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 10px;
+  text-align: right;
+  font-style: italic;
+}
+
+/* Media Queries for smaller screens */
+@media (max-width: 768px) {
+  table {
+    font-size: 12px;
+  }
+
+  table th,
+  table td {
+    padding: 6px;
+  }
+
+  /* Optional: hide columns on small screens if needed
+  td:nth-child(3),
+  th:nth-child(3) {
+    display: none;
+  }
+  */
 }
