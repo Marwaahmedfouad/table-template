@@ -58,6 +58,7 @@ import FilteringTablePagSelecteddoupleclick from './components/FilteringTablePag
 import FilteringTablePagSelecteddoupleclickhidden from './components/FilteringTablePagSelecteddoupleclickhidden';
 import FilteringsortingTablePagSelecteddoupleclickhidden from './components/FilteringsortingTablePagSelecteddoupleclickhidden';
 import './App.css';
+import ReUsableUpdate from './components/ReUsableUpdate';
 
 function App() {
   const columns = useMemo(() => [
@@ -117,6 +118,20 @@ function App() {
         pageSizeOptions={[5, 10, 25]}
         defaultPageSize={10}
       />
+
+   <ReUsableUpdate
+        columns={columns}
+        data={DATA}
+        title="User Management"
+        onRowClick={handleRowClick}
+        initialState={{
+          hiddenColumns: ['id'],
+          sortBy: [{ id: 'name', desc: false }]
+        }}
+        pageSizeOptions={[5, 10, 25]}
+        defaultPageSize={10}
+      />
+      
     </div>
   );
 }
